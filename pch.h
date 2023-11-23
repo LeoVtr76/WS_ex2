@@ -4,7 +4,7 @@
 #include "string"
 #include "Objet2D.h"
 #include "Rectangle.h"
-#include "Cube.h"
+#include "Carre.h"
 #include "Stock.h"
 
 #endif

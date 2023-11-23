@@ -25,12 +25,14 @@ using namespace std;
 //     return 0;
 // }
 int main(){
-
     Stock s;
     Objet2D* r = new Rectangle(10,5);
-    Objet2D* c = new Cube(4);
-    s.addAtHead(r);
-    s.addAtTail(c);
+    Objet2D* c = new Carre(4);
+    s.addAtHead(c);
+    s.addAtTail(r);
+    s.addAtHead(c);
+    s.afficherInfos();
+    s.remAtIndex(2);
     s.afficherInfos();
 
 
